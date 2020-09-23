@@ -46,5 +46,5 @@
     ```
 5. Test your model
     ```
-        python test_v2.py --model_path path --cuda_device cuda:1 --video_path path --score_thr 0.6
+        python test.py --model_path path --cuda_device cuda:1 --video_path path --score_thr 0.6
     ```
