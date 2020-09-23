@@ -1,0 +1,20 @@
+
+{
+    "model_name":"mask_rcnn",
+    "checkpoints_save_path":"/media/apptech/Seagate Backup Plus Drive/disney/weights/",
+    "train_data_path":"/home/apptech/Downloads/Disney/ds_001",
+    "test_data_path":"/home/apptech/Downloads/Disney/ds_001",
+    "pretrained_model":"/media/apptech/Seagate Backup Plus Drive/disney/sv_wights/mrcnn_epoch_0_1.pth",
+    "batch_size":2,
+    "device":"cuda:0",
+    "epoch":1000,
+    "learning_rate":1e-3,
+    "decay_step":1,
+    "decay_rate":0.99,
+    "number_of_class": 9,
+    "class_map": {"drink": 1, "fries": 2, "fruit": 3,"noodles":4,"pizza":5,"steak":6,"sushi":7,"tray":8,"vegetable":9},
+    "deactivate_batchnorm":"True",
+    "continue_training":"True",
+    "working_dir":"/home/apptech/torch_model/work_dir"
+
+}

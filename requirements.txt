@@ -1,0 +1,10 @@
+pycocotools
+opencv-python==4.0.1.24
+pillow
+scikit-learn==0.22.1
+scikit-image
+numpy
+tensorboardX
+tensorflow==1.13.1
+tensorflow-gpu==1.13.1
+matplotlib
